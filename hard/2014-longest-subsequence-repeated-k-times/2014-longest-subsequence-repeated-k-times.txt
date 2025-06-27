@@ -1,0 +1,19 @@
+                }
+            }
+        }
+        return result;
+    }
+    bool isK(string sub, string t, int k) {
+                if (isK(next, s, k)) {
+                    result = next;
+                    q.push(next);
+            string curr = q.front(); q.pop();
+            for (char ch = 'a'; ch <= 'z'; ++ch) {
+                string next = curr + ch;
+        q.push("");
+        while (!q.empty()) {
+    string longestSubsequenceRepeatedK(string s, int k) {
+        string result = "";
+        queue<string> q;
+class Solution {
+public:
