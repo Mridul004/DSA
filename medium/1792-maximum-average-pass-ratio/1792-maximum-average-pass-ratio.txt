@@ -1,0 +1,14 @@
+            auto [g, pt] = pq.top();
+            pq.pop();
+            int p = pt.first, t = pt.second;
+        while (extraStudents--) {
+        }
+            pq.push({gain(c[0], c[1]), {c[0], c[1]}});
+        for (auto& c : classes) {
+        priority_queue<pair<double, pair<int, int>>> pq;
+        };
+            return (double)(p + 1) / (t + 1) - (double)p / t;
+        auto gain = [](int p, int t) {
+    double maxAverageRatio(vector<vector<int>>& classes, int extraStudents) {
+public:
+class Solution {
