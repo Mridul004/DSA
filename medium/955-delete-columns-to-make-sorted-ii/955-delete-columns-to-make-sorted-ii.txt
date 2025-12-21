@@ -1,0 +1,16 @@
+class Solution {
+public:
+void comp(string s1, string s2, vector<int> &v){
+    for(int i=0;i<s1.length();i++){
+}
+    int minDeletionSize(vector<string>& strs) {
+        vector<int> v(strs[0].size(),0);
+        for(int i=0;i<strs.size()-1;i++) comp(strs[i],strs[i+1],v);
+        for(auto i:v) count+=i;
+        if(s1[i]<s2[i]) flag=1;
+    }
+        if(s1[i]>s2[i]) v[i]=1;
+        return count;
+        int count=0;
+        for(auto i:v) cout<<i<<" ";
+    int flag=0;
